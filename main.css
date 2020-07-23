@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Blck- #3A2E39
+    Purp #AF9BB6
+    Green #C9E4CA
+    Blue #87BBA2
+    Teal #55828B */
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+  color: #3A2E39;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+}
