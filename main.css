@@ -10,7 +10,7 @@
     Teal #55828B */
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   font-family: 'Lato', sans-serif;
   color: #3A2E39;
 }
@@ -18,4 +18,24 @@ body {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
+  border-bottom: 3px solid #C9E4CA;
+  bo
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 15px 10px 15px;
+}
+
+#navLinks {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+
+ul a {
+  display: block;
+  padding: 1em;
 }
