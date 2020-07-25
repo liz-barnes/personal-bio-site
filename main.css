@@ -11,31 +11,54 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: 'Lato', sans-serif;
-  color: #3A2E39;
+  font-family: 'Montserrat';
+  color: #233d4d;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Abril Fatface';
   font-size: 36px;
-  border-bottom: 3px solid #C9E4CA;
-  bo
+  letter-spacing: .045em;
+  /* border-bottom: 3px solid #C9E4CA; */
+  
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 15px 10px 15px;
+  padding: 25px 45px 25px 35px;
+  background-color: #a4c3b2;
 }
 
 #navLinks {
   list-style: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   display: flex;
 }
 
 ul a {
   display: block;
   padding: 1em;
+}
+
+#bioPage {
+  font-family: 'Poppins';
+  margin: 150px 0px 15px 50px;
+}
+
+#bioPage h2 {
+  /* border-bottom: 3px solid #C9E4CA;
+  border-width: 5%; */
+  margin: 15px 0px;
+  font-size: 32px;
+}
+
+.divider {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 10%;
+  background-color: #C9E4CA;
+  margin: 20px 0px 5px 0px;
 }
