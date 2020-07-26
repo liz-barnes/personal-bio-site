@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+    screenshot: "/images/lyft-sticker-contest.png",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",

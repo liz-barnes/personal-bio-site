@@ -40,6 +40,20 @@ ul a {
   padding: 1em;
 }
 
+#projectsPage {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border: black 5px solid;
+  margin: 50px;
+}
+
+.project-card {
+  border: 2px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+
 img {
   width: 100px;
   height: 100px;
