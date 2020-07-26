@@ -56,6 +56,23 @@ ul a {
   margin: 25px;
 }
 
+.bio {
+  width: 750px;
+}
+
+.technology{
+  font-family: 'Abril Fatface';
+  font-size: 56px;
+  letter-spacing: .045em;
+  text-align: center;
+}
+
+.tools {
+  text-align: center;
+  font-size: 24px;
+
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -64,13 +81,12 @@ img {
 footer {
   background-color: #a4c3b2;
   padding: 25px;
-
 }
 
 .contact-info {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 li {
