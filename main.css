@@ -46,14 +46,15 @@ ul a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin: 50px;
   padding: 0px 75px;
+  margin: 0px 55px 50px 55px;
 }
 
 .project-card {
   border: 2px solid black;
-  padding: 25px;
+  padding: 5px 10px 15px 10px;
   margin: 25px;
+  text-align: center;
 }
 
 h2 {
@@ -62,6 +63,10 @@ h2 {
   letter-spacing: .045em;
   text-align: center;
   margin: 25px;
+}
+
+.title {
+  margin-bottom: 10px;
 }
 
 .bio {
@@ -79,6 +84,21 @@ h2 {
 .tools {
   text-align: center;
   font-size: 24px;
+}
+
+.my-work {
+  margin-top: 150px;
+}
+
+h3 {
+  font-family: 'Abril Fatface';
+  font-size: 32px;
+  letter-spacing: .045em;
+  text-align: center;
+}
+
+.project-image {
+  display: inline-block;
 }
 
 img {
