@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+    screenshot: "/images/liz-pose.png",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML | CSS | Vanilla JavaScript | Version Control with Github",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+    screenshot: "/images/kreamer-graphic.png",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML | CSS | Vanilla JavaScript | Version Control with Github",
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+    screenshot: "/images/ns-coaching-opp.png",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML | CSS | Vanilla JavaScript | Version Control with Github",
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+    screenshot: "/images/allyssa-flowers.png",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML | CSS | Vanilla JavaScript | Version Control with Github",
@@ -73,7 +73,7 @@ const createProjectCards = () => {
 
   for (let i = 0; i < projects.length; i++) {
     domString += `<div class="project-card">`;
-    domString += `<div class="title"><h2>${projects[i].title}</h2></div>`;
+    domString += `<div class="title"><h3>${projects[i].title}</h3></div>`;
     domString += `<div class="project-image"><img src=${projects[i].screenshot} alt=""></div>`;
     domString += `<div class="project-description"><h3>${projects[i].description}</h3></div>`;
     domString += `<div class="tech-used"><p>${projects[i].technologiesUsed}</p></div>`;
