@@ -17,7 +17,7 @@ body {
 
 h1 {
   font-family: 'Abril Fatface';
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: .045em;
   /* border-bottom: 3px solid #C9E4CA; */
   
@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 45px 25px 35px;
+  padding: 15px 45px 15px 35px;
   background-color: #a4c3b2;
 }
 
@@ -46,17 +46,78 @@ ul a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin: 50px;
   padding: 0px 75px;
+  margin: 0px 55px 50px 55px;
 }
 
 .project-card {
   border: 2px solid black;
-  padding: 25px;
+  padding: 5px 10px 15px 10px;
   margin: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Abril Fatface';
+  font-size: 48px;
+  letter-spacing: .045em;
+  text-align: center;
+  margin: 25px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.bio {
+  width: 800px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: auto;
+}
+
+.technology {
+  margin-top: 150px;
+}
+
+.tools {
+  text-align: center;
+  font-size: 24px;
+}
+
+.my-work {
+  margin-top: 150px;
+}
+
+h3 {
+  font-family: 'Abril Fatface';
+  font-size: 32px;
+  letter-spacing: .045em;
+  text-align: center;
+}
+
+.project-image {
+  display: inline-block;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+footer {
+  background-color: #a4c3b2;
+  padding: 25px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0px 25px;
 }
