@@ -1,9 +1,133 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+// body {
+//   background-color: antiquewhite;
+//   color: brown;
+//   text-align: center;
+//   margin-top: 100px;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Blck- #3A2E39
+    Purp #AF9BB6
+    Green #C9E4CA
+    Blue #87BBA2
+    Teal #55828B */
+
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat';
+  color: #233d4d;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  font-size: 32px;
+  letter-spacing: .045em;
+  /* border-bottom: 3px solid #C9E4CA; */
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 45px 15px 35px;
+  background-color: #a4c3b2;
+}
+
+#navLinks {
+  list-style: none;
+  text-transform: lowercase;
+  display: flex;
+}
+
+ul a {
+  display: block;
+  padding: 1em;
+}
+
+#projectsPage {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 0px 75px;
+  margin: 0px 55px 50px 55px;
+}
+
+.project-card {
+  border: 2px solid black;
+  padding: 5px 10px 15px 10px;
+  margin: 25px;
   text-align: center;
-  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'Abril Fatface';
+  font-size: 48px;
+  letter-spacing: .045em;
+  text-align: center;
+  margin: 25px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.bio {
+  width: 800px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: auto;
+}
+
+.technology {
+  // margin-top: 150px;
+}
+
+.tools {
+  text-align: center;
+  font-size: 24px;
+}
+
+.my-work {
+  // margin-top: 150px;
+}
+
+h3 {
+  font-family: 'Abril Fatface';
+  font-size: 32px;
+  letter-spacing: .045em;
+  text-align: center;
+}
+
+.project-image {
+  display: inline-block;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #a4c3b2;
+  padding: 25px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0px 25px;
 }
