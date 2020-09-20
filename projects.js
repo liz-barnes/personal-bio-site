@@ -1,3 +1,5 @@
+import navbarEvents from './_navigation';
+
 "use strict";
 
 const projects = [
@@ -88,6 +90,7 @@ const createProjectCards = () => {
 
 const init = () => {
   createProjectCards();
+  navbarEvents.navbarEvents();
 };
 
 init();
